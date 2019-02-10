@@ -19,7 +19,7 @@ spec:
         io.kompose.service: nginx-host
     spec:
       containers:
-      - image: nivanov95/nginx-host:latest
+      - image: nivanov95/nginx-host:%IMAGE-PLACEHOLDER%
         name: nginx-host
         ports:
         - containerPort: 80
